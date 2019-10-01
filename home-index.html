@@ -1,0 +1,1004 @@
+<html>
+<head>
+    <title>Arc Metal Spraying</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+    <meta name="author" content="MNF" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <link rel="stylesheet" type="text/css"  href='assets/css/bootstrap.min.css' />
+    <link rel="stylesheet" type="text/css"  href='assets/style/style.css' />
+
+    <script>
+        function toggleSection(sectionID) {
+            var sa = new Array(
+                'pageHome','pageTujuan','pageProfil','pageReferensi',
+                'pageMateri','pagePengertian','pageBahan','pageAlat','pageKeselamatan',
+                'pageProses','pageContoh','pageHasil','pageKeuntungan','pageProses'
+            );
+            for (s in sa) {
+                document.getElementById(sa[s]).style.display = 'none';
+            }
+            var myTarget = document.getElementById(sectionID);
+            myTarget.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageHome');">Arc Metal Spraying</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageTujuan');">Tujuan</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Materi
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageMateri');">Daftar Materi</a>
+                            <hr>
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pagePengertian');">Pengertian</a>
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageBahan');">Persiapan Bahan</a>
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageAlat');">Persiapan Alat</a>
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageKeselamatan');">Persiapan Keselamatan</a>
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageProses');">Proses</a>
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageContoh');">Contoh</a>
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageHasil');">Hasil</a>
+                            <a class="dropdown-item" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageKeuntungan');">Keuntungan</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageProfil');">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="return false" onmousedown="javascript:toggleSection('pageReferensi');">Referensi</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <button id="playpausebtn"></button>
+                    <button id="mutebtn"></button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="pageHome" class="section" style="display:block;">
+        <div class="bg-home2">
+            <div class="container-fluid" style="padding-top: 70px;">
+                <div class="up head-page">
+                    <div class="card" style="background-color: transparent; padding: 30px">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-5 text-center">
+                                    <img src="assets/img/metal-spray-bg-sq.png" height="300px" width="300px" class="rounded-circle border-img img-fluid"/>
+                                </div>
+                                <div class="col-lg-7 col-sm-7" style="padding-top: 30px;">
+                                    <h2 style="font-size: 60px">Arc Metal Spraying</h2> 
+                                    <hr align="left">
+                                    <h5>Merupakan solusi engineering untuk menambah life time logam<br>dan mencegahnya dari korosi.</h5>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageTujuan');"><button type="button" class="btn btn-danger btn-lg">Selanjutnya >></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ----------------------------------------------------------- -->
+    
+    <div id='pageMateri' class="section">
+        <div class="bg-home2" style="padding-top: 20px;">
+            <div class="container-fluid">
+                <div class="up head-page">
+                    <div class="card" style="padding: 60px; padding-top: 30px">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-sm-12 text-center">
+                                    <h2 style="font-size: 60px">Materi Arc Metal Spraying</h2> 
+                                    <hr>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 text-center" style="padding-bottom: 20px">
+                                    <img src="assets/img/pengertian.png" height="150px" width="150px" class="img-fluid"/>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pagePengertian');"><button type="button" class="btn btn-danger btn-lg">1. Pengertian</button></a>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center" style="padding-bottom: 20px">
+                                    <img src="assets/img/material.png" height="150px" width="150px" class="img-fluid"/>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageBahan');"><button type="button" class="btn btn-danger btn-lg">2. Persiapan Bahan</button></a>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center" style="padding-bottom: 20px">
+                                    <img src="assets/img/tools.png" height="150px" width="150px" class="img-fluid"/>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageAlat');"><button type="button" class="btn btn-danger btn-lg">3. Persiapan Alat</button></a>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center" style="padding-bottom: 20px">
+                                    <img src="assets/img/safety.png" height="150px" width="150px" class="img-fluid"/>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageKeselamatan');"><button type="button" class="btn btn-danger btn-lg" style="font-size: 15px;">4. Persiapan Keselamatan</button></a>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 text-center" style="padding-bottom: 20px">
+                                    <img src="assets/img/proses.png" height="150px" width="150px" class="img-fluid"/>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageProses');"><button type="button" class="btn btn-danger btn-lg">5. Proses</button></a>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center" style="padding-bottom: 20px">
+                                    <img src="assets/img/contoh.png" height="150px" width="150px" class="img-fluid"/>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageContoh');"><button type="button" class="btn btn-danger btn-lg">6. Contoh</button></a>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center" style="padding-bottom: 20px">
+                                    <img src="assets/img/hasil.png" height="150px" width="150px" class="img-fluid"/>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageHasil');"><button type="button" class="btn btn-danger btn-lg">7. Hasil</button></a>
+                                </div>
+                                <div class="col-lg-3 col-md-6 text-center" style="padding-bottom: 20px">
+                                    <img src="assets/img/plus.png" height="150px" width="150px" class="img-fluid"/>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageKeuntungan');"><button type="button" class="btn btn-danger btn-lg">8. Keuntungan</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+        
+    </div>
+    <div id='pagePengertian' class="section">
+        <div class="container-fluid" style="padding-top: 70px; padding-right: 50 em; padding-left: 50 em">
+            <div class="head-page-profil">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 style="font-size: 48px" class="text-center">1. Pengertian</h2> 
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="padding: 30px">
+                    <div class="card-body">
+                        <!-- ----------------------------- 1 ----------------------------- -->
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <img src="assets/img/pengertian.png" width="200px" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <p style="font-size: 30px"><b>Arc spraying</b> adalah proses pelapisan/ penyemprotan termal dengan tingkat produktivitas tertinggi. Sebuah busur listrik DC beradu di antara dua elektroda secara terus menerus dan membentuk materi semprot. Gas bertekanan (biasanya udara) menjadikan partikel bahan semprot cair menjadi butiran halus dan mendorong mereka menuju objek pelapisan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; padding-top: 20px; padding-bottom: 0; margin: 0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageBahan');" class="btn btn-danger btn-lg">Selanjutnya >></a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>            
+    </div>
+    <div id='pageBahan' class="section">
+        <div class="container-fluid" style="padding-top: 70px; padding-right: 50 em; padding-left: 50 em">
+            <div class="head-page-profil">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 style="font-size: 48px" class="text-center">2. Persiapan Bahan</h2> 
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="padding: 30px">
+                    <div class="card-body">
+                        <!-- ----------------------------- 1 ----------------------------- -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3 style="font-size: 40px" class="text-center">Coating</h3>
+                                <hr style="width: 80px">
+                                <br>
+                                <ul>
+                                    <li><p>Zinc, alumunium dan stainless steel  untuk anti korosi cathodic pada baja</p></li>
+                                    <li><p>Molybdenum untuk pengikat lapisan</p></li>
+                                    <li><p>Molybdenum untuk pengerasan dan ketahanan gesek</p></li>
+                                    <li><p>Alumunium, nickel untuk tahan korosi</p></li>
+                                    <li><p>Baja Kromium tinggi untuk kekerasan dan tahan aus</p></li>
+                                    <li><p>Stainless steels, nickel dan monel untuk anti korosi dan tahan aus</p></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 text-center" style="padding-top: 240px">
+                                <center><button id='btnContoh' class="btn btn-danger btn-lg">Contoh</button></center>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 style="font-size: 40px" class="text-center">Substrate</h3>
+                                <hr style="width: 80px">
+                                <br>
+                                <center><img src="assets/img/pipa-round.jpg" width="300px" height="300px" class="rounded-circle img-fluid"></center>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row" style="padding: 0">
+                            <div class="col-md-4" id='showHid3'>
+                                <br>
+                                <div class="card" style="padding: 0; border: 1px solid #000; color: #E81224">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Alumunium, nickel untuk tahan korosi</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center" id='showHid2'>
+                                <br>
+                                <img src="assets/img/arrow-pilih.png" width="300px" class="img-fluid">
+                            </div>
+                            <div class="col-md-4" id='showHid1'><div class="card" style="padding: 0; border: 1px solid #000; color: #E81224">
+                                <div class="card-body">
+                                    <h4 class="text-center">Sebuah pipa minyak membutuhkan lapisan anti korosi untuk keamanan</h4>
+                                </div>
+                            </div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; padding-top: 20px; padding-bottom: 0; margin: 0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pagePengertian');" class="btn btn-danger btn-lg"><< Sebelumnya</a></center>
+                            </div>
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageAlat');" class="btn btn-danger btn-lg">Selanjutnya >></a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+        
+    </div>
+    <div id='pageAlat' class="section">
+        <div class="container-fluid" style="padding-top: 70px; padding-right: 50 em; padding-left: 50 em">
+            <div class="head-page-profil">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 style="font-size: 48px" class="text-center">3. Persiapan Alat</h2> 
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="padding: 5px">
+                    <div class="card-body">
+                        <!-- ----------------------------- 1 ----------------------------- -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <object width="100%" height="800px" data="assets/alatv3.swf"></object>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; padding-top: 20px; padding-bottom: 0; margin: 0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageBahan');" class="btn btn-danger btn-lg"><< Sebelumnya</a></center>
+                            </div>
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageKeselamatan');" class="btn btn-danger btn-lg">Selanjutnya >></a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+    </div>
+    <div id='pageKeselamatan' class="section">
+        <div class="container-fluid" style="padding-top: 70px; padding-right: 50 em; padding-left: 50 em">
+            <div class="head-page-profil">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 style="font-size: 48px" class="text-center">4. Persiapan Keselamatan</h2> 
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="padding: 10px">
+                    <div class="card-body">
+                        <!-- ----------------------------- 1 ----------------------------- -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="assets/img/helemproyek2.jpg" width='700px' class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; padding-top: 20px; padding-bottom: 0; margin: 0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageAlat');" class="btn btn-danger btn-lg"><< Sebelumnya</a></center>
+                            </div>
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageProses');" class="btn btn-danger btn-lg">Selanjutnya >></a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+    </div>
+    <div id="pageProses" class="section">
+        <div class="container-fluid" style="padding-top: 70px; padding-right: 50 em; padding-left: 50 em">
+            <div class="head-page-profil">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 style="font-size: 48px" class="text-center">5. Proses</h2> 
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="padding: 10px">
+                    <div class="card-body">
+                        <!-- ----------------------------- 1 ----------------------------- -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <object width="100%" height="800px" data="assets/spray-fixv4.swf"></object>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; padding-top: 20px; padding-bottom: 0; margin: 0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageKeselamatan');" class="btn btn-danger btn-lg"><< Sebelumnya</a></center>
+                            </div>
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageContoh');" class="btn btn-danger btn-lg">Selanjutnya >></a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+    </div>
+    <div id='pageContoh' class="section">
+        <div class="container-fluid" style="padding-top: 70px; padding-right: 50 em; padding-left: 50 em">
+            <div class="head-page-profil">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 style="font-size: 48px" class="text-center">6. Contoh</h2> 
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="padding: 10px">
+                    <div class="card-body">
+                        <!-- ----------------------------- 1 ----------------------------- -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <!-- <div class="embed-responsive embed-responsive-16by9 embed-responsive-4by3"> -->
+                                    <video width="100%" height="600px" controls>
+                                        <source src="assets/vid/Electric Arc Wire Spray By TEandM.mp4" type="video/mp4">Your browser does not support the video tag.
+                                    </video>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; padding-top: 20px; padding-bottom: 0; margin: 0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageProses');" class="btn btn-danger btn-lg"><< Sebelumnya</a></center>
+                            </div>
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageHasil');" class="btn btn-danger btn-lg">Selanjutnya >></a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+    </div>
+    <div id='pageHasil' class="section">
+        <div class="container-fluid" style="padding-top: 70px; padding-right: 50 em; padding-left: 50 em">
+            <div class="head-page-profil">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 style="font-size: 48px" class="text-center">7. Hasil</h2> 
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="padding: 30px">
+                    <div class="card-body">
+                        <!-- ----------------------------- 1 ----------------------------- -->
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <img src="assets/img/hasil.png" width="200px" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <!-- <p style="font-size: 30px">Menurut Sahid Prastowo dan Margono Sugeng (2015) pada jurnal berjudul "Pengaruh Tegangan dan Kuat Arus Listrik Terhadap Sifat Mekanis Material pada Lapisan Material Hasil dari Teknik ARC SPRAYED" menyatakan bahwa hasil pengujian kekerasan terhadap workpiece Arc Sprayed menggunakan parameter hardness vickers didapat nilai kekerasan sebesar 245,64 HV.</p> -->
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th>HVOF</th>
+                                            <th>ARC METAL SPRAY</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Menurut Sukma, H., dkk (2016) nilai kekerasan yang didapatkan setelah uji coba Thermal Spray Coating dengan teknik High Velocity Oxy-Fuel (HVOF) didapatkan nilai kekerasan sebesar: <br><br><center><b>87 HRB</b></center></td>
+                                            <td>Menurut Haryono, A. S. (2015) nilai kekerasan yang didapatkan setelah uji coba Wire Arc Spray Coating dengan teknik Metal Spray didapatkan nilai kekerasan sebesar: <br><br><center><b>110,77 HRB</b></center></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; padding-top: 20px; padding-bottom: 0; margin: 0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageContoh');" class="btn btn-danger btn-lg"><< Sebelumnya</a></center>
+                            </div>
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageKeuntungan');" class="btn btn-danger btn-lg">Selanjutnya >></a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+    </div>
+    <div id='pageKeuntungan' class="section">
+        <div class="container-fluid" style="padding-top: 70px; padding-right: 50 em; padding-left: 50 em">
+            <div class="head-page-profil">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 style="font-size: 48px" class="text-center">8. Keuntungan</h2> 
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="padding: 30px">
+                    <div class="card-body">
+                        <!-- ----------------------------- 1 ----------------------------- -->
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <img src="assets/img/speedometer.png" width="125px" class="img-fluid">
+                                <br>
+                                <br>
+                                <p>Memiliki laju deposisi tertinggi dari proses thermal spraying dan dapat digunakan untuk objek dengan skala besar atau jumlah yang banyak pada proses produksi berulang.</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <img src="assets/img/down.png" width="125px" class="img-fluid">
+                                <br>
+                                <br>
+                                <p>Mengurangi cost maintenance hingga 70% bila disbanding dengan pembelian part baru</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <img src="assets/img/hourglass.png" width="125px" class="img-fluid">
+                                <br>
+                                <br>
+                                <p>Memperbaiki sifat fisis material base metal sehingga menambah life time dari suatu part.</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <img src="assets/img/protection.png" width="125px" class="img-fluid">
+                                <br>
+                                <br>
+                                <p>Dapat diaplikasikan untuk perlindungan korosi yang diakibatkan dari oksidasi.</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="card" style="background-color: transparent; padding-top: 20px; padding-bottom: 0; margin: 0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageHasil');" class="btn btn-danger btn-lg"><< Sebelumnya</a></center>
+                            </div>
+                            <div class="col-md-6">
+                                    <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageMateri');" class="btn btn-danger btn-lg">Daftar Materi</a></center>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+    </div>
+    <!-- ----------------------------------------------------------- -->
+    <div id="pageTujuan" class="section">
+        <div class="bg-home2" style="padding-top: 30px;">
+            <div class="container-fluid">
+                <div class="up head-page" style="padding-bottom: 30px">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-4 text-center">
+                                    <img src="assets/img/knowledge.png" height="200px" width="200px" class="img-fluid"/>
+                                </div>
+                                <div class="col-lg-8 col-sm-8">
+                                    <h2 style="font-size: 60px">Tujuan Pembelajaran</h2> 
+                                    <hr align="left">
+                                    <h5 style="font-size: 30px">Memahami proses pelapisan logam</h5>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 30px;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-4 text-center">
+                                    <img src="assets/img/list.png" height="200px" width="200px" class="img-fluid"/>
+                                </div>
+                                <div class="col-lg-8 col-sm-8">
+                                    <h2 style="font-size: 60px">Materi Pokok</h2> 
+                                    <hr align="left">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-6 text-left">
+                                            <h5 style="font-size: 24px">
+                                                <ol>
+                                                    <li>Hot Dip</li>
+                                                    <li>Metal Spray</li>
+                                                    <li>Chemical Deposition</li>
+                                                    <li>Electro Deposition</li>
+                                                </ol> 
+                                                <br>
+                                            </h5>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-6 text-left">
+                                            <h5 style="font-size: 24px">
+                                                <ol start="5">
+                                                    <li>Vapour Deposition</li>
+                                                    <li>Diffusion Coating</li>
+                                                    <li>Clading</li>
+                                                </ol> 
+                                                <br>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 30px;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-4 text-center">
+                                    <img src="assets/img/goal.png" height="200px" width="200px" class="img-fluid"/>
+                                </div>
+                                <div class="col-lg-8 col-sm-8">
+                                    <h2 style="font-size: 60px">Tujuan Inti</h2> 
+                                    <hr align="left">
+                                    <h5 style="font-size: 30px">Melalui multimedia ini diharapkan Peserta Didik mampu memahami proses pelapisan logam salah satunya yaitu Arc Metal Spraying</h5>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="card" style="background-color: transparent; padding: 0; margin: 0">
+                        <div class="card-body">
+                            <center><a href="#" onclick="return false" onmousedown="javascript:toggleSection('pageMateri');"><button type="button" class="btn btn-danger btn-lg">Selanjutnya >></button></a></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>            
+    </div>
+    <div id="pageProfil" class="section">
+        <div class="bg-home2">
+            <div class="up container-fluid" style="padding-top: 50px; padding-right: 50 em; padding-left: 50 em">
+                <div class="head-page-profil">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 style="font-size: 48px" class="text-center">Profil Pembuat</h2> 
+                            <hr>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- ----------------------------- 1 ----------------------------- -->
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <h3 style="font-size: 40px">1. Identitas Diri</h3> 
+                                    <!-- <hr> -->
+                                    <br>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-5 text-center">
+                                    <img src="assets/img/kautsat-sq.png" height="300px" width="300px" class="rounded-circle  img-fluid"/>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div class="col-md-6">
+                                    <center>
+                                        <table border="0" class="">
+                                            <tr>
+                                                <td width="30%">Nama</td>
+                                                <td>:</td>
+                                                <td>&nbsp; Kautsar Munazz Firdaus</td>
+                                            </tr>
+                                            <tr>
+                                                <td>NIM</td>
+                                                <td>:</td>
+                                                <td>&nbsp; 1501879</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TTL</td>
+                                                <td>:</td>
+                                                <td>&nbsp; Bandung, 28 Februari 1997</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jenis Kelamin &nbsp;</td>
+                                                <td>:</td>
+                                                <td>&nbsp; Laki – laki</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jurusan</td>
+                                                <td>:</td>
+                                                <td>&nbsp; Pendidikan Teknik Mesin</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Universitas</td>
+                                                <td>:</td>
+                                                <td>&nbsp; Universitas Pendidikan Indonesia</td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top">Alamat</td>
+                                                <td valign="top">:</td>
+                                                <td>&nbsp; Jl. Raya Cimareme No. 02 RT. 02 RW. 10 <br>&nbsp;Desa Cimareme Kec. Ngamprah<br>&nbsp;Kab. Bandung Barat</td>
+                                            </tr>
+                                            <tr>
+                                                <td>No. Telp</td>
+                                                <td>:</td>
+                                                <td>&nbsp; 082214278986</td>
+                                            </tr>
+                                            <tr>
+                                                <td>E-mail</td>
+                                                <td>:</td>
+                                                <td>&nbsp; kautsarmunazz@student.upi.edu</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dosen Pembimbing 1</td>
+                                                <td>:</td>
+                                                <td>
+                                                    Drs. Yusep Sukrawan, M.T.<br>
+                                                    NIP. 196607281992021001
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dosen Pembimbing 2</td>
+                                                <td>:</td>
+                                                <td>
+                                                    Dr. Ir. H. Agus Solehudin, M.T.<br>
+                                                    NIP. 196802181999031001  
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <!-- ----------------------------- 2 ----------------------------- -->
+                    <div class="card">
+                        <div class="card-body">            
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <h3 style="font-size: 40px;">2. Riwayat Pendidikan</h3> 
+                                    <!-- <hr> -->
+                                    <br>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-md-3">
+                                    <img src="assets/img/sd.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>SDN 4 Cimareme</h4>
+                                    <h5>2003 - 2009</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/img/smp.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>SMPN 1 Cimahi</h4>
+                                    <h5>2009 - 2012</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/img/sma.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>SMKN 12 Bandung</h4>
+                                    <h5>2012 - 2015</h5>
+                                    <h5>Jurusan Penerbangan</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/img/kuliah.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>Universitas Pendidikan Indonesia</h4>
+                                    <h5>2015 - Sekarang</h5>
+                                    <h5>Jurusan Pendidikan Teknik Mesin</h5>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    
+                    <!-- ----------------------------- 3 ----------------------------- -->
+                    <div class="card">
+                        <div class="card-body">            
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <h3 style="font-size: 40px;">3. Pemakalah Seminar Ilmiah</h3> 
+                                    <!-- <hr> -->
+                                    <br>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-md-4">
+                                    <img src="assets/img/tik.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>Seminar TIK</h4>
+                                    <h5>TIK dan Penggunan Barang Bekas untuk TIK</h5>
+                                    <h5><span><img src="assets/img/maps-and-flags.png" width="25px" alt=""></span> Gedung Serbaguna PUSDIKTER</h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="assets/img/gokart.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>Seminar Gokart</h4>
+                                    <h5>Teknologi Gokart Indonesia</h5>
+                                    <h5><span><img src="assets/img/maps-and-flags.png" width="25px" alt=""></span> Auditorium UNPAS Kampus Setiabudhi</h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="assets/img/nasional.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>Seminar Nasional</h4>
+                                    <h5>Peduli Energi Terbarukan Berwawasan Lingkungan dan Masyarakat</h5>
+                                    <h5><span><img src="assets/img/maps-and-flags.png" width="25px" alt=""></span> Gedung Amphiteather UPI</h5>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <!-- ----------------------------- 4 ----------------------------- -->   
+                    <div class="card">
+                        <div class="card-body">  
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <h3 style="font-size: 40px;">4. Penghargaan 10 Tahun Terakhir</h3> 
+                                    <!-- <hr> -->
+                                    <br>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-md-3">
+                                    <img src="assets/img/third-prize.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>Juara 3 LCC 4 Pilar Kebangsaan</h4>
+                                    <h5>Dinas Pendidikan Kota Bandung</h5>
+                                    <h5>2014</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/img/first-prize.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>Juara 1 Gokart Gearbox Class Rotax Max Challenge 2016 (Team)</h4>
+                                    <h5>RMC Indonesia</h5>
+                                    <h5>2016</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/img/second-prize.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>Juara 2 Sosiologi Cup 2017</h4>
+                                    <h5>Departemen Pendidikan Sosiologi UPI</h5>
+                                    <h5>2017</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/img/second-prize.png" width="125px" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <h4>Juara 2 Piala Pancasila 2017</h4>
+                                    <h5>Departemen Pendidikan PKN UPI</h5>
+                                    <h5>2017</h5>
+                                </div>
+                            </div>              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>
+    </div>
+    <div id="pageReferensi" class="section">
+        <div class="bg-home2">
+            <div class="up container-fluid" style="padding-top: 70px; padding-right: 50px; padding-left: 50px">
+                <div class="head-page-profil">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 style="font-size: 48px" class="text-center">Referensi</h2> 
+                            <hr>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card" style="padding: 40px">
+                        <div class="card-body">
+                            <!-- ----------------------------- 1 ----------------------------- -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3 style="font-size: 40px">Materi</h3>
+                                    <hr align='left' style="width: 100px"> 
+                                    <br>
+                                    <ul>
+                                        <li><p>Ropi, R., Sidik, J. (2012). Perlakuan Permukaan Arc Spraying. Journal of Mechanical Engineering Education.</p></li>
+                                        <li><p>Suchaimi, M., Rochiem, R., Purwaningsih, H. (2017). Pengaruh Jarak Nzzle dan Tekanan Gas pada Proses Pelapisan FeCrBMnSi dengan Metode Wire Arc Spray terhadap Ketahanan Thermal. Jurnal Teknik ITS, 6(1).</p></li>
+                                    </ul>
+                                    <br>
+                                    <h3 style="font-size: 40px">Desain Ikon</h3> 
+                                    <hr align='left' style="width: 100px"> 
+                                    <br>
+                                    <ul>
+                                        <li><p>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p></li>
+                                    </ul>
+                                    <br>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <span>Made with ❤️ by Kautsar and Team | 2019</span>
+            </div>
+        </footer>            
+    </div>
+
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/music.js"></script>
+    <script>
+            $( document ).ready(function() {
+                $('#btnContoh').click(function(){
+                    $('#showHid1').fadeToggle(2000);
+                    $('#showHid2').fadeToggle(3000);
+                    $('#showHid3').fadeToggle(4000);
+                });
+            });
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+/** =================== Lato =================== **/
+
+/** Lato Thin **/
+@font-face {
+    font-family: "Lato";
+    font-weight: 200;
+    font-style: normal;
+    src: url("Lato-Thin.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 300;
+    font-style: normal;
+    src: url("Lato-Light.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    src: url("Lato-Regular.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 500;
+    font-style: normal;
+    src: url("Lato-Medium.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 600;
+    font-style: normal;
+    src: url("Lato-SemiBold.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 700;
+    font-style: normal;
+    src: url("Lato-Bold.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 800;
+    font-style: normal;
+    src: url("Lato-Heavy.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: normal;
+    src: url("Lato-Black.ttf") format('opentype');
+}
