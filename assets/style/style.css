@@ -248,3 +248,7 @@ button#mutebtn{	background:url(https://image.flaticon.com/icons/svg/204/204287.s
 	height:30px;
     border: 0px
 }
+
+a.nav-link {
+    font-size: 20px;
+}
